@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+venv312/
+env/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Datasets and Processed Data (~6+ GB)
+dataset/
+dataset_generalized/
+dct_data/
+processed/
+
+# Large Model Weights (files near/over GitHub 100MB limit)
+# Note: Use download_resnet_weights.py or external storage to fetch weights
+models/*.h5
+
+# Temporary & Scratch Files
+dum.txt
+app.py.txt
+*.log
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
